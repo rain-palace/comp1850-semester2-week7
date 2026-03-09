@@ -1,0 +1,12 @@
+get_values(): argc=4
+get_values(): arg "15" -> 15
+get_values(): arg "30" -> 30
+get_values(): arg "45" -> 45
+get_values(): returning 0x5cead760d2a0
+main(): data at 0x5cead760d2a0
+main(): num_values=3
+sum_values(): i=0, sum=15
+sum_values(): i=1, sum=45
+sum_values(): i=2, sum=90
+main(): calculation complete
+main(): freed allocated storage
