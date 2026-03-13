@@ -27,7 +27,7 @@
        CFLAGS = -g -fsanitize=address -fno-omit-frame-pointer
 
 3. Remove all the executables and then recompile the `noleak` and `leak`
-   programs, using this sequence of commands:
+   programs, using this sequence of commands:make
 
        make clean
        make noleak

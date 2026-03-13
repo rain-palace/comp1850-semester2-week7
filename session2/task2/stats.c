@@ -22,8 +22,10 @@ void read_data(const char* filename, float data[], int* size)
             }
 
             sscanf(line, "%f", &value);
+            if(value>=0){
             data[i] = value;
             (*size)++;
+            }
         }
 
         fclose(infile);
